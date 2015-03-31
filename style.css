@@ -1,0 +1,210 @@
+.header {
+	background-image: url(images/bckg_header.jpg);
+}
+.container {
+	background-image: url(images/bckg_page.jpg);
+}
+.footer {
+	background-image: url(images/bckg_footer.jpg);
+	clear: both;
+
+}
+#header {
+	background-image: url(images/bckg_header.jpg);
+	background-repeat: no-repeat;
+
+}
+#container {
+	background-image: url(images/bckg_page.jpg);
+	background-repeat: repeat-y;
+	border: none;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+
+}
+#footer {
+	background-image: url(images/bckg_footer.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border: none;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: both;
+
+
+
+}
+body, html {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+#content {
+	margin: 0px;
+	width: 574px;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	float: right;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 524px;
+}
+#sidebar {
+	margin: 0px;
+	float: left;
+	width: 186px;
+}
+body, html, p, h1, h5, li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#footer p {
+	font-size: 0.7em;
+}
+h5 {
+	font-size: 0.8em;
+	color: #000066;
+}
+a img {
+	border: none;
+}
+/* Begin Navigation */
+.navigation {
+	display: block;
+	text-align: center;
+	margin: 10px 0px;
+	}
+
+.navi {
+	width: 700px;
+	background: white;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.navi ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav a {
+	color: #FFFFFF;
+	font-size: 90%;
+	text-transform: uppercase;
+	line-height: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navi li {
+	float: left;
+	position: relative;
+	width: 138px;
+	text-align: center;
+	cursor: default;
+	background-color: #000099;
+	border: solid white;
+	border-width: 0 1px;
+}
+
+.navi li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: url(images/ddbg3.gif) no-repeat left bottom;
+	padding: 0.5em 0 1em 0;
+	border-right: solid 1px #7d6340;
+}
+
+.navi li li {
+	display: block;
+	float: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.navi li li a {
+	display: block;
+	font-weight: normal;
+	color: #060;
+	padding: 0.2em 10px;
+}
+
+.navi li li a:hover {
+	padding: 0.2em 5px;
+	border: 5px solid #7d6340;
+	border-width: 0 5px;
+}
+
+.navi li>ul {
+	top: auto;
+	left: auto;
+}
+
+.navi li:hover ul, li.over ul {
+	display: block;
+}
+ /*End Navigation */
+div.feedburnerFeedBlock ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+div.feedburnerFeedBlock {
+	font-size: 90%;
+	text-align: left;
+	margin-left: 35px;
+}
+div.feedburnerFeedBlock ul li {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+div.feedburnerFeedBlock a {
+	text-decoration: none;
+}
+#header-map {
+	background-image: url(images/TOSI_WEB.jpg);
+	background-repeat: no-repeat;
+	background-position: 18px 20px;
+	padding-top: 52px;
+	height: 16%;
+
+
+
+}
+#container-map {
+	background-image: url(images/bckg_dx-map.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+small a, small a:visited {
+	color: #CCCCCC;
+	text-decoration: blink;
+
+}
+small a:hover {
+	color: #999999;
+}
+small {
+	font-size: 0.85em;
+	line-height: 1.2em;
+	color: #CCCCCC;
+}
+.alignright {
+	text-align: right;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lavori :: IMPRESA EDILE TOSI :: Costruzioni a Borgomanero</title>
+<style type="text/css">
+	html { height: 100% }
+	body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+	#map_canvas { height: 480px}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript"
+	src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+	function initialize() {
+		var latlng = new google.maps.LatLng(45.703088, 8.464727);
+		var myOptions = {
+			zoom: 16,
+			center: latlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"),
+			myOptions);
+		var layer = new google.maps.FusionTablesLayer({
+			query: {
+				select: 'Location',
+				from: '1089831'
+			}
+		});
+		layer.setMap(map);	
+	}
+</script>
+<meta name="description" content="In questa mappa trovate i principali lavori dell'Impresa Edile Tosi e quelli in corso di realizzazione">
+</head>
+<body onload="initialize()">
+<div id="container">
+	<div id="header"><p>&nbsp;</p>
+  <p><img src="images/TOSI_WEB.jpg" alt="impresa edile tosi borgomanero" width="242" height="136" /></p>
+<div class="navi">		
+<ul id="nav"> 
+    <li>
+	<div><a href="index.htm">Home</a></div>
+	</li> 
+    <li>
+	<div><a href="#">Lavori</a></div>
+	</li> 
+    <li>
+	<div><a href="storia.htm">Storia</a></div>
+     </li>
+    <li>
+	<div><a href="contatti.htm">Contatti</a></div> 
+    </li>
+	<li>
+	<div><a href="invendita.htm">In vendita</a></div> 
+    </li>
+</ul>
+</div>
+</div>
+	<div id="content">
+	<p>In questa mappa trovate i principali lavori dell'Impresa edile TOsi, e quelli in corso di realizzazione.</p>
+	<div id="map_canvas" style="width:524px; height:480px"></div>
+	</div>
+<div id="sidebar">
+<p><a href="index.htm">Home</a></p>
+</div>
+<div id="footer">
+  <h5>IMPRESA EDILE DI GEOM GIAN CARLO TOSI &amp; C. s.n.c.</h5>
+  <p>Viale Libert&agrave; 23 | 28021 Borgomanero (NO)<br />
+  Tel. e fax 0322 84.37.69 | <a href="mailto:info@impresaediletosi.it">e-mail</a><br />Cod. Fisc. - Partita Iva - Iscrizione
+    alla CCIAA di Novara: 00123320038 | nr REA: NO-92536</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>
